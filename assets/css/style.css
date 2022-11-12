@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*Eliminando estilos por defecto*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+}
+
+/*Encabezado*/
+.encabezado {
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+.encabezado h1 {
+    text-align: center;
+    color: #FC9519;
+    height: 40px;
+    margin-top: 35px;
+}
+
+/*Cuerpo calculadora*/
+.calculadora-container {
+    background-color: #000;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    width: 490px;
+    height: 530px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*Pantalla calculadora*/
+.pantalla-container {
+    border: 3px solid #fff;
+    border-radius: 25px;
+    width: 420px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#pantalla-calculadora {
+    color: #fff;
+    font-size: 50px;
+    margin: 25px;
+    float: right;
+}
+
+/*Cuerpo de teclado*/
+.teclado-container {
+    border: 3px solid #000;
+    border-radius: 25px;
+    width: 420px;
+    height: 380px;
+    margin: auto;
+}
+
+/*Botones*/
+.btn {
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    margin-left: 6px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.num:hover {
+    background-color: #93918F;
+}
+
+.esp:hover {
+    background-color: #484848;
+}
+
+.op {
+    background-color: #FC9519;
+    color: #fff;
+}
+
+.num {
+    background-color: #C1C1C1;
+}
+
+.esp {
+    background-color: #626160 ;
+}
